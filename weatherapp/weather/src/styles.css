@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #0af1e6b7;
+  }
+  
+  .app {
+    margin: 20px;
+  }
+  
+  .search-bar {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .weather-display {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .error {
+    color: red;
+  }
+  
